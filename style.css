@@ -1,0 +1,699 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.nav{
+    width: 100%;
+    height:120px ;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(245, 150, 183);
+    z-index: 1;
+   
+}
+.logo,.logoitems,.menu{
+    flex: 1;
+}
+.image{
+   
+    width: 170px;
+    height: 30px;
+    align-items: center;
+    margin-top: 34px;
+    margin-left: 80px;
+}
+.menu_box{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    padding-left: 11px;
+    padding-top: 11px;
+    background-color: #fff;
+    opacity: 0.5;
+}
+.solid{
+    color: rgb(211, 204, 204);
+}
+.menu_box:hover{
+    background-color: rgb(255, 147, 185);
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 50px;
+    color: #fff;
+}
+.menu1:hover{
+   color: rgb(230, 85, 85) ;
+}
+.menu1{
+    margin-left: 10px;
+    color: #fff;    
+}
+.round_bar{
+   width: 35px;
+   height: 35px;
+   border-radius: 40px;
+   background-color:  rgb(255, 147, 185);
+   margin-top: 570px;
+}
+.square{
+   padding: 8px 0px 0px 10px;
+   color:white;
+}
+.round_bar:hover{
+   background-color: black;
+   color: white;
+}
+.logoitems{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    color: #fff;
+    cursor: pointer;
+}
+.classSection{
+    margin-left: 20px;
+    transition:all 2s ease-out ;
+} 
+.classSection:hover{
+   transform: rotateY(360deg); 
+}
+
+ .website{
+   width: 100%;
+   height: 600px;
+   padding-top: 120px;
+   position: relative;
+ }
+ .web_ig{
+   width: 100%;
+   height: 600px;
+   position:absolute;
+ }
+ .iconDiv{
+   height: 35px;
+   width: 100px;
+   position: relative;
+   top: 538px;
+   left: 1235px;
+   display: flex;
+   flex-direction: row;
+   border-radius: 30px;  
+   background-color: #fff; 
+  
+ }
+ .radiusDiv{
+   height: 35px;
+   width: 50px;
+   border-radius: 30px 0px 0px 30px;
+   flex: 1;
+   padding: 10px 0px 0px 15px;
+   font-size: 14px;
+   color: #ad9f9f;
+ }
+ .radiusDiv2{
+   height: 35px;
+   width: 50px;
+   border-radius: 0px 30px 30px 0px;
+   flex: 1;
+   border-left: 1px solid gray;
+   padding: 10px 0px 0px 15px;
+   font-size: 14px;
+   color: #ad9f9f;
+ }
+.radiusDiv2:hover{
+   background-color: #ff93b9;
+ }
+ .radiusDiv:hover{
+   background-color: #ff93b9;
+ }
+
+ /* second */
+ .second{
+   width: 100%;
+   height: 600px;
+ }
+ .second_one{
+  width: 1100px;
+  height: 500px;
+  margin-left: 120px;
+  border-radius: 30px;
+  position: absolute;
+  top: 660px;
+  background-color: #fff;
+ }
+ .Categories_class{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding-top: 50px;
+ }
+ .second_Categories{
+   font-size: 24px;
+   padding-top:3px;
+   
+ }
+ .third_Categories{
+   padding-top: 6px;
+   color: #525252;
+   display: inline-block;
+   font: 400 12px/14px "Poppins",sans-serif;
+   letter-spacing: 4px;
+  
+   text-align: center;
+   text-transform: uppercase;
+   vertical-align: top;
+   width: auto;
+ }
+ .carosoulType{
+   width: 800px;
+   height: 400px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   margin-left: 150px;
+   overflow: hidden;
+ }
+ .FlowersPicture,.FlowersPicture1{
+   flex: 2;
+   margin-right:10px ; 
+   transition: transform 1s;
+ }
+ .FlowersPicture:hover{
+   transform: scale(1.1);
+ }
+ .FlowersPicture1,.FlowersPicture2{
+   padding-left: 60px;
+   transition: transform 1s;
+ }
+ .FlowersPicture1:hover{
+   transform: scale(1.1);
+ }
+ .FlowersPicture2:hover{
+   transform: scale(1.1);
+ }
+ .carosoulType h2{
+    opacity: 0.5;
+    font-weight: 100;
+    font: 400 18px/20px "Playfair Display",Helvetica,sans-serif;
+    margin: 0 0 8px;
+    text-transform: capitalize;
+    align-items: center;  
+}
+.FlowersPicture h2{
+   padding:40px 0 0 25px;
+}
+.FlowersPicture1 h2{
+   padding:40px 0 0 80px;
+}
+
+ /* forth */
+
+ .ImagePart{
+    margin-left:660px ;
+ }
+ .ImagePart1{
+    margin-left:510px ;
+    letter-spacing: 4px;
+ }
+ .main_divSection{
+    width: 100%;
+    height:50px ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    color: rgb(182, 161, 161);
+ 
+ }
+ .division{
+    width: 140px;
+   height: 40px;
+   border: 2px solid #ff93b9;
+   border-radius: 40px;
+   padding:10px 0px 0px 40px;
+   margin: 10px;
+   color: #fff;
+   background-color: #ff93b9;;
+   
+ }
+ .division1{
+    width: 110px;
+   height: 40px;
+   border: 2px solid  rgb(196, 183, 183);
+   border-radius: 40px;
+   padding: 10px 0px 0px 30px;
+ }
+ .division1:hover{
+    background-color: #ff93b9;
+    color: #fff;
+ }
+ .division2:hover{
+    background-color: #ff93b9;
+    color: #fff;
+ }
+ .division2{
+    width: 140px;
+   height: 40px;
+   border: 2px solid rgb(196, 183, 183);
+   border-radius: 40px;
+   padding:10px 0px 0px 40px;
+   margin: 10px;  
+ }
+
+ /* flowerr */
+.first_section{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+ }
+ .animation{
+   height: 180px;
+   width: 55px;
+   display: flex;
+   flex-direction: column;
+   position: relative;
+   padding: 10px;
+   margin-left: 270px;
+   margin-top: 150px;
+   position: absolute;
+   top: 30px;
+   transform: translateX(100px);
+   opacity: 0;
+ }
+
+ .cart{
+   width: 30px;
+   height: 40px;
+   border-radius: 50px;
+   padding-top: 8px;
+   padding-left: 7px;
+   margin-top: 8px;
+   background-color: #e0d2d2;
+  
+ }
+.ClassImage:hover .animation{
+   animation: expand 0.5s ease-out forwards;
+ }
+ @keyframes expand{
+   from{
+      opacity: 0;
+      transform: translateX(100px);
+   }
+   to{
+      opacity: 1;
+      transform: translateX(0px);
+   }
+}
+ .cart:hover{
+   background-color: #ff93b9;
+ }
+ .ClassImage{
+   flex:1 ;
+    height: 470px;
+    width:298px ;
+    border: 1px solid rgb(216, 208, 208);
+    border-radius: 20px;
+    position: relative;
+    flex: 1;
+    margin: 10px;
+  
+ 
+ }
+ .ClassImage:hover{
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+
+ }
+
+ .set{
+    height: 385px;
+    width: 280;
+    padding: 4px 0px 0px 9px;
+    border: 0;
+ }
+    
+  
+ .font{
+    font:700 18px/20px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    font-family: "Playfair Display", Helvetica, sans-serif;
+    padding-left: 110px;
+    margin-top: 10px;
+ }
+ .ClassImage h5{
+    color: gray;
+    font-family: "Poppins",Helvetica,sans-serif;
+    padding-left: 115px;
+
+ }
+ .BoxImage{
+   color: #ffbf34;
+   padding: 4px 0px 10px 100px;
+ }  
+
+
+
+ .div_class{
+   width: 100%;
+   height: 600px;
+ }
+ .para_class{
+   width: 100%;
+   height: 600px;
+    position: absolute;
+     object-fit:cover;
+    object-position: 100px 100px 100px 100px; 
+ }
+ .prev_next{
+   height: 120px;
+   width: 100%;
+ }
+ .prev{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   margin-top: 40px;
+   font-size: 14px;
+    letter-spacing: 2px;
+    color: #000000;
+ }
+ .next1{
+   margin-left: 25px; 
+   padding-right:20px ;
+ }
+ .next{
+   padding-left: 20px;
+ }
+ .class1{
+   display: flex;
+   flex-direction: row;
+ }
+ .hr1{
+   position: relative;
+   width:90px;
+   left: 580px;
+   margin-top: 8px;
+   padding-right:2px 
+
+ }
+ .hr2{
+   position: relative;
+   width: 90px;
+   left: 580px;
+   margin-top: 8px;
+   margin-left: 0px; 
+   padding-left: 10px;
+ }
+ .s_arrow{
+   padding-left: 28px;
+ }
+ 
+ 
+.h4{
+   font: 300 24px/30px "Poppins",Helvetica,sans-serif;
+    color: #ffffff;
+    margin:  0 0px 10px;
+    padding:200px 0 0 20px;
+    position: relative;
+    text-align: center;
+}
+.hr{
+   position: relative;
+   width: 60px;
+   font-weight: bolder;
+   left: 660px;
+   margin-top: 8px;
+   
+}
+
+.h3{
+   font: 500 28px/30px "Poppins",Helvetica,sans-serif;
+    color: #ffffff;
+    margin: 5px 0 0 10px;
+    padding: 0 0 20px;
+    position: relative;
+    text-align: center;
+}
+.radius1{
+   height: 40px;
+   width: 135px;
+   position: relative;
+   border-radius: 40px;
+   padding:11px 0px 0px 27px;
+   background: #ff93b9;
+    color: #ffffff;
+    border-radius: 22px;
+    margin-top: 10px;
+    font: 400 15px/18px "Poppins",Helvetica,sans-serif;
+    letter-spacing: 1px;
+   letter-spacing: 1px;
+   margin-left: 620px;
+}
+.radius1:hover{
+background-color: #000000;
+}
+.text_div{
+ width: 100%;
+ border: #030303 1px;
+ padding-left: 110px;
+}
+.header{
+   color: #030303;
+   font-size: 20px;
+   font-weight: 700;
+   margin-top: 30px; 
+
+}
+.top{
+   text-align: justify;
+   color: rgb(68, 68, 68);
+   margin-top: 30px; 
+   margin-bottom: 10px; 
+   font-size: 15px;
+   width: 1100px;
+   line-height: 1.3;
+    letter-spacing: 1px;
+   font-family: sans-serif;
+   margin-block-start: 1em;
+   margin-block-end: 1em;
+   margin-inline-start: 0px;
+   margin-inline-end: 0px; 
+   background: #ffffff;
+}
+.box{
+   width: 100%;
+   height: 400px;
+   display: flex;
+   flex-direction: row; 
+    padding-left: 90px;
+}
+.box_bar{
+   width: 530px;
+   height: 260px;
+   border-radius: 20px;
+   margin-left: 30px;
+}
+.t_box{
+   padding:50px 0px 0px 320px;
+}
+.u_box{
+   padding:50px 0px 0 35px ;
+}
+.box_ig{
+   width: 530px;
+   border-radius: 20px;
+   position: absolute;
+}
+.box_h{
+   font-family: Playfair Display;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: capitalize;
+    color: #000000;    bottom: auto;
+    position: relative;
+}
+.radius{
+   height: 45px;
+   width: 130px;
+   position: relative;
+   border-radius: 40px;
+   padding:12px 0px 0px 27px;
+   background: #ff93b9;
+    color: #ffffff;
+    border-radius: 22px;
+    margin-top: 10px;
+    font: 400 15px/18px "Poppins",Helvetica,sans-serif;
+    letter-spacing: 1px;
+   letter-spacing: 1px;
+}
+.radius:hover{
+   background-color: #000000;
+}
+.topic{
+   position: relative; 
+   font-family: Poppins;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 44px;
+   text-transform: capitalize;
+   color: #000000;
+}
+.last_ig{
+   width: 100%;
+   height: 180px;
+   position: absolute;
+   padding-top: 10px;
+
+}
+.box_tag{
+   display: flex;
+   flex-direction: row; 
+   position: relative;
+   font-size: 25px;
+   padding: 80px 0 0 90px;
+   background: none;
+   color: #000000;
+   font: 600 32px/46px "Playfair Display",sans-serif;
+   margin: 0;
+   position: relative;
+   text-align: left;
+   text-transform: capitalize;
+}
+.bar_type{
+   height: 45px;
+   width: 500px;
+   border:1px solid #ad9f9f ;
+   border-radius: 3px;
+   margin:-10px 0px 0px 720px;
+   position: absolute;
+}
+.bar_type:hover{
+   border: 2px solid black;
+}
+.email{
+   font-size: 15px;
+   font-family: 200;
+   opacity: 0.5;
+}
+.subscribe{
+   height: 35px;
+   width: 130px;
+   font-size: 15px;
+   background-color: black;
+   color: #fff;
+   border-radius: 30px;
+   padding-bottom: 40px;
+   padding-left: 30px;
+   font-family: sans-serif;
+   margin:-13px 0px 0px 710px;
+   position: relative;
+}
+.subscribe:hover{
+   background-color: rgb(7, 172, 7);
+}
+
+/* footer */
+
+.footer{
+   width: 100%;
+   height: 500px;
+   margin-top: -35px;
+}
+.last_card{
+   width: 700px;
+   height: 500px;
+   border: #f7efef 1px solid;
+}
+.bg_footer{
+   width: 100%;
+   height:auto;
+}
+.iMageBackground{
+   width: 100%;
+   height: 500px;
+   position: absolute;
+   margin-top: 100px;
+
+}
+.flex_ig{
+ display: flex;
+ flex-direction: row; 
+ position: relative;
+ color: #fff;
+ font-size: 15px;
+ flex:2 ;
+ align-items: center;
+ font-family: "Poppins",Helvetica,sans-serif;
+ margin-left:90px;
+ padding-top: 50px;
+
+
+}
+.ex_ig{
+   margin: 0px 0px 0px 50px;
+}
+
+.ul_li{
+   text-decoration: none;
+   text-align: center;
+   padding-top: 30px;
+}
+.extra{
+   margin-top: 30px;
+   padding: 40px;
+   font-size: 20px;
+}
+.ul_li1{
+   text-decoration: none;
+   text-align: center;
+   padding-top: -10px;
+}.ul_li2{
+   text-decoration: none;
+   text-align: center;
+   padding-top: -40px;
+}
+.extra1{
+   padding: 50px;
+   font-size: 20px;
+}
+.ul_li3{
+   text-decoration: none;
+   text-align: center;
+   padding-top: -10px;
+}
+.extra2{
+   margin-top: 50px;
+   padding: 40px;
+   font-size: 20px;
+}
+.position{
+   position: relative;
+   color: #fff;
+   font-size: 17px;
+   padding-left: 350px;
+   font-family: "Poppins",Helvetica,sans-serif;
+}
+
+
+
+
+  
+  
+  
+
